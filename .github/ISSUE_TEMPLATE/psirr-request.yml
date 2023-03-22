@@ -1,1 +1,4 @@
-
+name: Privacy, Security, & Infrastructure Readiness Review [Team-Name, Feature-Name]
+description: Request a Privacy, Security, & Infrastructure Readiness Review.
+title: "Readiness Review [Team-Name, Feature-Name]"
+labels: ["security-review"]
