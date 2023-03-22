@@ -38,7 +38,11 @@ body:
       value: |
           If your team checked any of the boxes above, please answer the following questions to the best of your knowledge.
           - Please provide information for the hosting environment and location, for example, the VAEC cloud.
-  - type: markdown
+  - type: textarea
+    id: hosting-details
+    attributes:
+      label: Details
+- type: markdown
     attributes:
       value: |
           ### External Connections
