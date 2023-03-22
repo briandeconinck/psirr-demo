@@ -42,7 +42,7 @@ body:
     id: hosting-details
     attributes:
       label: Details
-- type: markdown
+  - type: markdown
     attributes:
       value: |
           ### External Connections
