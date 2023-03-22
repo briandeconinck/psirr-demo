@@ -86,7 +86,7 @@ body:
   - type: textarea
     id: hosting-details
     attributes:
-      label: Details
+      label: Hosting Environment Details
   - type: markdown
     attributes:
       value: |
@@ -112,7 +112,7 @@ body:
   - type: textarea
     id: external-details
     attributes:
-      label: Details
+      label: External Connection Details
   - type: markdown
     attributes:
       value: |
@@ -139,7 +139,7 @@ body:
   - type: textarea
     id: source-details
     attributes:
-      label: Details
+      label: Source Code Details
   - type: markdown
     attributes:
       value: |
@@ -166,7 +166,7 @@ body:
   - type: textarea
     id: privacy-details
     attributes:
-      label: Details
+      label: Privacy Details
   - type: markdown
     attributes:
       value: |
