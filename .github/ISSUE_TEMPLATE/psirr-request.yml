@@ -68,3 +68,57 @@ body:
     id: external-details
     attributes:
       label: Details
+  - type: markdown
+    attributes:
+      value: |
+          ### Source Code
+  - type: checkboxes
+    id: source-stuff
+    attributes:
+      label: Please check the appropriate box if any of the following statements are True.
+      options:
+        - label: This feature includes an update to the `vets-api` source code.
+        - label: This feature includes an update to the `vets-website` source code.
+        - label: This feature includes an update to some other source code on the VFS Platform.
+        - label: This feature does not include an update on the VFS Platform.
+  - type: markdown
+    attributes:
+      value: |
+         Responses
+          If your team checked any of the boxes above, please answer the following questions to the best of your knowledge.
+          - Please provide a link to any source code repositories.
+          - Please provide a list of resources that will have write access to a repository and the repository name.
+          - Please provide an estimate for the duration of the project.
+          - Please describe any updates to be included and where those updates are necessary.
+          - Please describe the code development and code review process that will be used.
+  - type: textarea
+    id: source-details
+    attributes:
+      label: Details
+  - type: markdown
+    attributes:
+      value: |
+          ### Privacy
+  - type: checkboxes
+    id: privacy-stuff
+    attributes:
+      label: Please check the appropriate box if any of the following statements are True.
+      options:
+        - label: This feature uses Personal Identifiable Information (PII).
+        - label: This feature uses Personal Health Information (PHI).
+        - label: This feature uses Personal Information (PI).
+  - type: markdown
+    attributes:
+      value: |
+         Responses
+         If your team checked any of the boxes above, please answer the following questions to the best of your knowledge.
+         - Please summarize the need for the PHI, PII, or PI.
+         - Please describe the PHI, PII, or PI used by the feature.
+         
+         Guidelines
+         - Personal Information (PI) should be removed whenever possible.
+         - Personal Health Information (PHI) and Personal Identifiable Information (PII) must be encrypted.
+  - type: textarea
+    id: privacy-details
+    attributes:
+      label: Details
