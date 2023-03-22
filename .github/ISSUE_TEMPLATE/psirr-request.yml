@@ -6,11 +6,50 @@ body:
   - type: markdown
     attributes:
       value: |
+        ## Guidance
+  - type: markdown
+    attributes:
+      value: |
+        - VFS Lead engineer or product manager: using this template, create issue in `va.gov-team-sensitive` and answer the questionnaire in its entirety.
+        - Do _**NOT**_ put any PII, PHI, or other Potentially Sensitive Data into the Issue contents.
+        - Notify the Platform Security Team of this request in the #vfs-platform-support Slack channel upon filing.
+        - The Platform Security Team will review this issue and **conduct all conversations and follow-ups through this issue** (**ex**cluding PII/PHI/Potentially Sensitive Data).
+            - As a requester: complete any follow-up action items and provide all requested information in this issue.
+        - Do _**NOT**_ close this issue, Security Reviews may only be closed by a member of the Platform Security Team. The Platform Security Team will update the [Platform Collaboration Point Tracker](https://docs.google.com/spreadsheets/d/1OgPyEvUlNF6EnaYMFAXJkV6FKOvZnlPnbOQ2fAJ7W7A/edit#gid=1116695886) upon closure.
+  - type: markdown
+    attributes:
+      value: |
+        ## Product/Team Information
+  - type: input
+    id: lead-eng
+    attributes:
+      label: Lead engineer
+    validations:
+      required: true
+  - type: input
+    id: pm
+    attributes:
+      label: Product manager
+    validations:
+      required: true
+  - type: input
+    id: prod-lead
+    attributes:
+      label: OCTO-DE product lead
+    validations:
+      required: true
+  - type: input
+    id: anyone-else
+    attributes:
+      label: Anyone else on your team whose presence is needed to speak to the technical architecture and security concerns
+  - type: markdown
+    attributes:
+      value: |
         ## Define Phase
   - type: markdown
     attributes:
       value: |
-        Text
+        This questionnaire gathers relevant security information from the Veteran Facing Services (VFS) application team and provides some security guidance and information to help prepare for the Privacy and Security Review.
   - type: markdown
     attributes:
       value: |
