@@ -19,7 +19,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Product/Team Information
+        ## Team/Product Information
   - type: input
     id: lead-eng
     attributes:
@@ -42,6 +42,12 @@ body:
     id: anyone-else
     attributes:
       label: Anyone else on your team whose presence is needed to speak to the technical architecture and security concerns
+  - type: input
+    id: product-outline
+    attributes:
+      label: Link to product outline
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: |
@@ -161,3 +167,38 @@ body:
     id: privacy-details
     attributes:
       label: Details
+  - type: markdown
+    attributes:
+      value: |
+        ## Build Phase
+  - type: markdown
+    attributes:
+      value: |
+        Please review and use the following documentation examples as you develop the feature. This will ensure consistency and help speed up the review process.
+        - Feature Architecture Diagram – Example
+        - Feature Sequence Diagram – Example
+        - Feature Data Flow Diagram – Example
+        - Feature API Endpoint Documentation – Example
+        - Feature Playbook – Example
+        
+        Provide completed documentation as you build your feature.
+  - type: input
+    id: architecture-diagram
+    attributes:
+      label: Architecture diagram
+  - type: input
+    id: incident-response-plan
+    attributes:
+      label: Incident response plan
+  - type: input
+    id: sequence-diagram
+    attributes:
+      label: Sequence diagram
+  - type: input
+    id: data-flow-diagram
+    attributes:
+      label: Data flow diagram
+  - type: input
+    id: api-endpoint-docs
+    attributes:
+      label: API endpoint documentation
