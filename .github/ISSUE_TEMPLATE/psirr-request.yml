@@ -52,3 +52,19 @@ body:
       label: Please check the appropriate box if any of the following statements are True.
       options:
         - label: This feature shares data or other information resources with the VA, VA Partner, or a third party.
+  - type: markdown
+    attributes:
+      value: |
+         Responses
+         If your team checked any of the boxes above, please answer the following questions to the best of your knowledge.
+          - Please summarize the need for the external connection.
+          - Please provide the name, function, and location of the external connection.
+          - Please describe the data or information exchanged using the external connection.
+
+         Guidelines
+          - External Connections that share data or other information resources with any system that has a different Authorizing Official (AO) require a Memorandum of Understanding (MOU) / Interconnection Security Agreement (ISA) agreement completed before the connection can be turned up.
+          - External Connections must traverse the forward proxy.
+  - type: textarea
+    id: external-details
+    attributes:
+      label: Details
