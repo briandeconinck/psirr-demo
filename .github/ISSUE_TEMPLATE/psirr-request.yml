@@ -16,10 +16,35 @@ body:
       value: |
           ### General
   - type: checkboxes
-    id: cat-preferences
+    id: general-documentation
     attributes:
       label: Please review the following documentation prior to completing this questionnaire.
       description: More text
       options:
         - label: The team has reviewed the documentation provided.
           required: true
+  - type: markdown
+    attributes:
+      value: |
+          ### Hosting Environment
+  - type: checkboxes
+    id: hosting-outside
+    attributes:
+      label: Please check the appropriate box if any of the following statements are True.
+      options:
+        - label: This feature will connect to an endpoint developed by the VFS team and hosted outside of the VFS Platform.
+  - type: markdown
+    attributes:
+      value: |
+          If your team checked any of the boxes above, please answer the following questions to the best of your knowledge.
+          - Please provide information for the hosting environment and location, for example, the VAEC cloud.
+  - type: markdown
+    attributes:
+      value: |
+          ### External Connections
+  - type: checkboxes
+    id: external-data
+    attributes:
+      label: Please check the appropriate box if any of the following statements are True.
+      options:
+        - label: This feature shares data or other information resources with the VA, VA Partner, or a third party.
