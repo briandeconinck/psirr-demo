@@ -2,3 +2,12 @@ name: Privacy, Security, & Infrastructure Readiness Review [Team-Name, Feature-N
 description: Request a Privacy, Security, & Infrastructure Readiness Review.
 title: "Readiness Review [Team-Name, Feature-Name]"
 labels: ["security-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Define Phase
+  - type: markdown
+    attributes:
+      value: |
+        Text
